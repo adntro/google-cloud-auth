@@ -1,6 +1,6 @@
 {
   "name": "@adntro/google-cloud-auth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Google Cloud auth utilitities (get token from functions, local, etc.)",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
