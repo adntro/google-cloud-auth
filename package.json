@@ -22,7 +22,8 @@
     "fix": "gts fix",
     "prepare": "npm.cmd run compile",
     "pretest": "npm.cmd run compile",
-    "posttest": "npm.cmd run lint"
+    "posttest": "npm.cmd run lint",
+    "publish": "npm.cmd publish --access public"
   },
   "devDependencies": {
     "@types/mocha": "^8.2.2",
