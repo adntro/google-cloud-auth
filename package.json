@@ -1,11 +1,12 @@
 {
   "name": "@adntro/google-cloud-auth",
   "version": "0.0.4",
+  "description": "Google Cloud auth utilitities (get token from functions, local, etc.)",
+  "author": "Adntro Genetics SL",
   "repository": {
     "type": "git",
     "url": "https://github.com/adntro/google-cloud-auth"
   },
-  "description": "Google Cloud auth utilitities (get token from functions, local, etc.)",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
   "files": [
@@ -14,7 +15,7 @@
   "engines": {
     "node": ">=10.0.0"
   },
-  "license": "Apache-2.0",
+  "license": "MIT",
   "keywords": [
     "Google Cloud"
   ],
