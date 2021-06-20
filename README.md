@@ -1,7 +1,7 @@
 # @adntro/google-cloud-auth
 > Google Cloud auth utilitities (get token from functions, local, etc.)
 
-[![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.com/package/@adntro/google-cloud-auth)
+[![npm version](https://img.shields.io/npm/v/@adntro/google-cloud-auth.svg?style=flat-square)](https://www.npmjs.com/package/@adntro/google-cloud-auth)
 
 It makes easy to get a bearer token to use from local to invoked authorized endpoints (Cloud Functions, Cloud Run, etc.), and also 
 to get that token to invoke a secured resource from another resorce.
