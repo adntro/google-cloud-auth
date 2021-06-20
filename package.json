@@ -1,6 +1,6 @@
 {
   "name": "@adntro/google-cloud-auth",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Google Cloud auth utilitities (get token from functions, local, etc.)",
   "author": "Adntro Genetics SL",
   "repository": {
