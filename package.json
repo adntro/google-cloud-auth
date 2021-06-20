@@ -1,0 +1,41 @@
+{
+  "name": "@adntro/google-cloud-auth",
+  "version": "0.0.1",
+  "description": "Google Cloud auth utilitities (get token from functions, local, etc.)",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "files": [
+    "build/src"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "Google Cloud"
+  ],
+  "scripts": {
+    "test": "c8 mocha build/test",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm.cmd run compile",
+    "pretest": "npm.cmd run compile",
+    "posttest": "npm.cmd run lint"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^14.11.2",
+    "@types/sinon": "^10.0.2",
+    "axios-mock-adapter": "^1.19.0",
+    "c8": "^7.7.3",
+    "gts": "^3.1.0",
+    "mocha": "^9.0.1",
+    "sinon": "^11.1.1",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
